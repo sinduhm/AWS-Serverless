@@ -16,16 +16,6 @@ A serverless student record application built with HTML, JavaScript, Amazon S3, 
 - Ignore incomplete legacy records in the GET response
 - Prevent duplicate student IDs in the POST Lambda
 
-### Project StructureAWS-Serverless/
-├── frontend/
-│   ├── index.html
-│   └── script.js
-├── backend/
-│   ├── inser.py
-│   └── get.py
-├── docs/
-│   └── screenshots
-└── README.mdjavascript
 ### DynamoDB Setup
 - **Table name:** `studentData`
 - **Partition key:** `student_id` (String)

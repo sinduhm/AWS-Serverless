@@ -17,19 +17,6 @@ Key Features
 - Store and retrieve records from DynamoDB.
 - Host the frontend using Amazon S3 and CloudFront.
 
-Project Structure
-
-aws-serverless-student-management/
-├── frontend/
-│   ├── index.html
-│   └── script.js
-├── backend/
-│   ├── insertstudent.py
-│   └── getstudents.py
-├── docs/
-│   └── screenshot.docs
-└── README.md
-
 Usage
 
 1. Configure the frontend with the correct API Gateway endpoints.
